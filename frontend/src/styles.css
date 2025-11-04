@@ -1,0 +1,56 @@
+/*idea for this css was taken from https://codesandbox.io/p/sandbox/managing-a-component-tree-practice-oe6y7?file=%2Fpublic%2Fstyles.css%3A61%2C19-61%2C47*/
+/*this container wraps the whole app*/
+.container 
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+/*this container does the css for each blog post*/
+.blog-post
+{
+  width: 100%;
+  background: #f1f5f8;
+  background-image: radial-gradient(#bfc0c1 7.2%, transparent 0);
+  background-size: 25px 25px;
+  border-radius: 20px;
+  padding: 1rem;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  text-align: left;
+  font-family: "Architects Daughter", cursive;
+}
+
+/*this container does the button*/
+button 
+{
+  border: none;
+  font-family: "Architects Daughter", cursive;
+  padding-bottom: 3px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/*more styling for the button for inner span*/
+button span 
+{
+  display: block;
+  padding: 1rem ;
+  border-radius: 5px;
+  border: 2px solid;
+}
+/*this container deals with the textareas insinde the*/
+input, textarea 
+{
+  box-sizing: border-box;
+  background-color: transparent;
+  padding: 0.7rem;
+  border-bottom-right-radius: 15px 3px;
+  border-bottom-left-radius: 3px 15px;
+  font-family: "Architects Daughter", cursive;
+  font-size: 1rem;
+  color: black;
+  width: 100%;
+}
